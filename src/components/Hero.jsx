@@ -36,7 +36,7 @@ const Hero = () => {
             </p>
             <button className="resume-btn mt-20 mb-10 bg-transparent hover:bg-[#915eff] text-[#c1abef] font-semibold py-3 px-5 rounded-xl inline-flex items-center hover:text-white border">
               <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-              <a href="https://drive.google.com/file/d/1A_a5vCKOJ7V2TI84sNpOur3RZUJqHph-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="https://drive.google.com/file/d/1StLBNDGXi9FqxIXkLiJE1qThgL3UMUGI/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
             </button>
             <div className="home-sci">
               <a href="https://www.facebook.com/abhijit.shaw.5454" target='_blank'><i className='bx bxl-facebook'></i></a>
