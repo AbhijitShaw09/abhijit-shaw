@@ -28,6 +28,8 @@ import {
     githubfinder,
     todolist,
     loancalculator,
+    livedocs,
+    nike,
   } from "../assets";
   
   export const navLinks = [
@@ -203,12 +205,56 @@ import {
   
   const projects = [
     {
+      name: "Live Docs",
+      description:
+        "Collaborative text editor with real-time editing features.",
+      tags: [
+        {
+          name: "next.js",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "liveblocks",
+          color: "green-text-gradient",
+        },
+        {
+          name: "clerk",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "sentry",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: livedocs,
+      app_link: "https://livedocs-as.vercel.app/",
+      source_code_link: "https://github.com/AbhijitShaw09/live_docs",
+    },
+    {
+      name: "Nike Homepage",
+      description:
+        "Front-end Nike-themed web application that showcases a variety of Nike products.",
+      tags: [
+        {
+          name: "react.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: nike,
+      app_link: "https://nike-pi-five.vercel.app/",
+      source_code_link: "https://github.com/AbhijitShaw09/Nike",
+    },
+    {
       name: "Movies & Tv Shows App",
       description:
         "Explore movies and tv shows, and filter and sort them as per your convenience. ",
       tags: [
         {
-          name: "react",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
@@ -242,7 +288,7 @@ import {
           color: "orange-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwind css",
           color: "pink-text-gradient",
         },
       ],

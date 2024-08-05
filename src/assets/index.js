@@ -31,6 +31,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import movix from "./movix.gif";
+import livedocs from "./livedocs.png";
+import nike from "./nike.png";
 import gericht from "./gericht.gif";
 import tracalorie from "./tracalorie.gif";
 import githubfinder from "./githubfinder.gif";
@@ -72,4 +74,6 @@ export {
   todolist,
   loancalculator,
   visit_live,
+  livedocs,
+  nike,
 };
